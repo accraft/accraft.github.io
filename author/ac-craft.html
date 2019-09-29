@@ -26,7 +26,7 @@
         <span>Sun 25 August 2019</span>
 <span>| tags: <a href="../tag/welcome.html">welcome</a><a href="../tag/python.html">python</a><a href="../tag/pelican.html">pelican</a></span>
 </footer><!-- /.post-info --><h2>This is my first Pelican documen</h2>
-<p>This is my first attempt at making some content for my github.io page. Nice that all content is in markdown, which I have some limited experience. I make most of my content in Python, developing stuff in Notepad++, and R/R Studio, so I hope to integrate some of that stuff within Pelican. Especially the dynamic charts created using plotly look pretty slick. </p>
+<p>This is my first attempt at making some content for my github.io page. This page is written using Markdown .md files. I plan to use Python to generate most of my content, so it will be an interesting exercise figuring out how to write content in a Jupyter notebook, then integrating that content in the Pelican static site generator. I also am looking to develop some content in R/R Studio, using R markdown, so hopefully that will be feasible to integrate. I especially want to see if it's feasible to insert dynamic charts created using plotly. </p>
 <p>Right now, I have two separate projects that create this content. 
 1. The actual github.io page which only contains content, readme, and gitignore. 
 2. A project where I have Pelican installed which actually creates content. Luckily keeping the two pages in sync seems fairly easy, once I run the <code>pelican content</code> command, I run rsync using wsl, <code>wsl rsync -a ./pelican_gitio/output/ ./accraft.github.io</code>. </p>                </article>
